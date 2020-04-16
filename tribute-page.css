@@ -1,0 +1,66 @@
+html {
+    font-size: 10px;
+}
+
+body{
+    font-family: "Segoe UI", "Roboto", "Helvetica Neue", Arial, sans-serif;
+    font-size: 1.6rem;
+    line-height: 1.5;
+    text-align: center;
+    color: #333;
+    margin: 0;
+}
+
+#main{
+    margin: 30px 8px;
+    padding: 15px;
+    border-radius: 5px;
+    background: #eee;
+}
+
+h1{
+    font-size: 3rem; /*3*10px  ... font-size of root element (html) is 10px and 16px by default */
+}
+
+#img-div{
+    background: white;
+    padding: 1rem;
+    margin: 0;
+}
+
+img {
+    max-width: 100%;
+    display: block;
+    height: auto;
+    margin: 0 auto;
+}
+
+#img-caption {
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+#tribute-info-head{
+    margin: 5rem 0;
+}
+
+ul{
+    margin: 0 auto 5rem auto; 
+    max-width: 55rem;
+    /* The 2 previous properties allow the ul to centered as left and right
+    margins grows automaticaly while the max width of the ul contents is 55rem ~ 550px */
+    text-align: left;
+    line-height: 1.6;
+}
+
+li{
+    margin: 1.6rem 0;
+}
+
+blockquote{
+    margin: 0 auto 5rem auto; 
+    max-width: 55rem;
+    /* The 2 previous properties allow the ul to centered as left and right
+    margins grows automaticaly while the max width of the ul contents is 55rem ~ 550px */
+    text-align: left;
+    font-style: italic;
+}
